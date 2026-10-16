@@ -554,4 +554,13 @@ export default {
   '{0} sets of {1} — time to add weight or move to a harder variation.': '{0} × {1} — пора добавить вес или перейти к более сложному варианту.',
   '{0} per side': '{0} на сторону',
   'You still log the total: {0} is {1} per side.': 'Ты по-прежнему записываешь общее число: {0} — это {1} на сторону.',
+  // --- home workouts ---
+  'Home plan loaded — {0} routines, no equipment needed': 'Домашний план загружен — {0} тренировок, без оборудования',
+  'Set up your weekly routine to get going — or load a ready-made plan: Push / Pull / Legs for the gym, or a no-equipment plan for home.': 'Настройте недельный план, чтобы начать, или загрузите готовый: Push / Pull / Ноги для зала либо план без оборудования для дома.',
+  'Load home plan (no equipment)': 'Загрузить домашний план (без оборудования)',
+  'Legs, chest, back, core, arms, cardio and stretching — just a mat and a chair': 'Ноги, грудь, спина, пресс, руки, кардио и растяжка — нужны только коврик и стул',
+  'Where do you train?': 'Где вы тренируетесь?',
+  'Gym': 'Зал',
+  'At home': 'Дома',
+  'At home (no equipment)': 'Дома (без оборудования)',
 }

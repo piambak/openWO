@@ -554,4 +554,13 @@ export default {
   '{0} sets of {1} — time to add weight or move to a harder variation.': '{0} × {1} powt. — czas dodać ciężar albo przejść na trudniejszy wariant.',
   '{0} per side': '{0} na stronę',
   'You still log the total: {0} is {1} per side.': 'Nadal zapisujesz łączną liczbę: {0} to {1} na stronę.',
+  // --- home workouts ---
+  'Home plan loaded — {0} routines, no equipment needed': 'Plan domowy wczytany — {0} rutyn, bez sprzętu',
+  'Set up your weekly routine to get going — or load a ready-made plan: Push / Pull / Legs for the gym, or a no-equipment plan for home.': 'Ustaw swój plan tygodnia, aby zacząć — albo wczytaj gotowy: Push / Pull / Nogi na siłownię lub plan bez sprzętu do domu.',
+  'Load home plan (no equipment)': 'Wczytaj plan domowy (bez sprzętu)',
+  'Legs, chest, back, core, arms, cardio and stretching — just a mat and a chair': 'Nogi, klatka, plecy, brzuch, ramiona, cardio i rozciąganie — wystarczy mata i krzesło',
+  'Where do you train?': 'Gdzie trenujesz?',
+  'Gym': 'Siłownia',
+  'At home': 'W domu',
+  'At home (no equipment)': 'W domu (bez sprzętu)',
 }

@@ -8,6 +8,7 @@ import { beep, vibrate } from './lib/sound.js'
 import { t, instrFor, getLang, INSTR_LANGS } from './lib/i18n.js'
 import { nav } from './lib/nav.js'
 import { starterRoutines } from './lib/starter.js'
+import { homeRoutines, HOME_WEEK } from './lib/starter-home.js'
 import Media, { Thumb } from './components/Media.jsx'
 import Stepper from './components/Stepper.jsx'
 import Icon from './components/Icon.jsx'
@@ -50,6 +51,22 @@ export function loadStarterPlan() {
     st.week[1] = push.id; st.week[3] = pull.id; st.week[5] = legs.id
   })
   toast(t('Starter plan loaded — Mon Push · Wed Pull · Fri Legs'))
+}
+
+// Home plan: bodyweight routines per area (legs, push, back, core, arms, cardio, full body,
+// stretch). The suggested week only fills days that are still empty, so loading it never
+// replaces a schedule you already built. Also switches the profile to "home" so the
+// exercise library starts out filtered to what needs no equipment.
+export function loadHomePlan() {
+  const list = homeRoutines()
+  update(st => {
+    list.forEach(({ r }) => st.routines.push(r))
+    list.forEach(({ key, r }) => {
+      Object.keys(HOME_WEEK).forEach(d => { if (HOME_WEEK[d] === key && !st.week[d]) st.week[d] = r.id })
+    })
+    st.place = 'home'
+  })
+  toast(t('Home plan loaded — {0} routines, no equipment needed', list.length))
 }
 
 /* ============================ weight picker (shared: body weight + goal) ============================ */

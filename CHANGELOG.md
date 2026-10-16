@@ -1,5 +1,12 @@
 # Changelog
 
+## Unreleased
+
+### Home workouts — no gym needed
+
+- 🏠 **Home plan (no equipment)** — one tap loads eight bodyweight routines: Legs & Glutes, Chest & Shoulders, Back, Core, Arms, Cardio (HIIT), Full Body and Stretch & Mobility. A mat, a wall and a sturdy chair are enough. The suggested week (Mon Legs … Sun Stretch) only fills days that are still empty.
+- 📍 **Where do you train?** — a Gym / At home setting. At home starts the exercise library filtered to what needs no equipment (bars, rings and benches are left out); an "At home" chip toggles it either way.
+
 ## v1.2.4 — 2026-08-01
 
 The effort ratings you have been recording since v1.2.3 now answer questions, and bodyweight

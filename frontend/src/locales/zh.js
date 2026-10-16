@@ -554,4 +554,13 @@ export default {
   '{0} sets of {1} — time to add weight or move to a harder variation.': '{0} 组 × {1} 次——该加重量或换更难的变式了。',
   '{0} per side': '每侧 {0} 次',
   'You still log the total: {0} is {1} per side.': '你记录的仍然是总数：{0} 表示每侧 {1} 次。',
+  // --- home workouts ---
+  'Home plan loaded — {0} routines, no equipment needed': '居家计划已加载——{0}个训练，无需器械',
+  'Set up your weekly routine to get going — or load a ready-made plan: Push / Pull / Legs for the gym, or a no-equipment plan for home.': '设置每周训练计划即可开始——或加载现成计划：健身房的推/拉/腿，或居家无器械计划。',
+  'Load home plan (no equipment)': '加载居家计划（无器械）',
+  'Legs, chest, back, core, arms, cardio and stretching — just a mat and a chair': '腿、胸、背、核心、手臂、有氧和拉伸——只需一张垫子和一把椅子',
+  'Where do you train?': '你在哪里训练？',
+  'Gym': '健身房',
+  'At home': '在家',
+  'At home (no equipment)': '在家（无器械）',
 }

@@ -554,4 +554,13 @@ export default {
   '{0} sets of {1} — time to add weight or move to a harder variation.': '{1} tekrarlık {0} set — ağırlık ekleme ya da daha zor bir varyasyona geçme zamanı.',
   '{0} per side': 'Taraf başına {0}',
   'You still log the total: {0} is {1} per side.': 'Toplamı kaydetmeye devam ediyorsun: {0}, taraf başına {1} demek.',
+  // --- home workouts ---
+  'Home plan loaded — {0} routines, no equipment needed': 'Ev planı yüklendi — {0} rutin, ekipman gerekmez',
+  'Set up your weekly routine to get going — or load a ready-made plan: Push / Pull / Legs for the gym, or a no-equipment plan for home.': 'Başlamak için haftalık rutinini kur — veya hazır bir plan yükle: spor salonu için Push / Pull / Bacak ya da ev için ekipmansız plan.',
+  'Load home plan (no equipment)': 'Ev planını yükle (ekipmansız)',
+  'Legs, chest, back, core, arms, cardio and stretching — just a mat and a chair': 'Bacak, göğüs, sırt, karın, kol, kardiyo ve esneme — sadece bir mat ve bir sandalye',
+  'Where do you train?': 'Nerede antrenman yapıyorsun?',
+  'Gym': 'Spor salonu',
+  'At home': 'Evde',
+  'At home (no equipment)': 'Evde (ekipmansız)',
 }

@@ -70,6 +70,7 @@ as a home-screen app, passkey sign-in, offline support, sync across your phone a
 - ↔️ **Reps per side** — for lunges, single-arm rows and the rest. You log the total, the app shows the split ("8 per side"), and the target steps in twos so it never lands on a number one side can't have
 - 🏃 **Cardio** — log time + speed, not just weight × reps
 - 📤 **Share a plan** — send someone your routines and week schedule as a small file (no workouts, no weigh-ins), or print it as a clean PDF. Importing merges, so their plan is never overwritten
+- 🏠 **Home workouts, no gym** — a ready-made bodyweight plan split by area (legs, push, back, core, arms, cardio, full body, stretching) that needs only a mat and a chair, plus a library filter for equipment-free exercises
 - 🔧 **Filter by equipment** — narrow the library to what you actually own; the options adapt to what you've picked, so every combination on screen has results behind it
 - ✨ **Your own exercises** — a name and a body part is enough; they behave like built-in ones everywhere, with an optional description instead of an animation
 - 🟩 **Activity heatmap** — a GitHub-style year view, shaded by time spent training
