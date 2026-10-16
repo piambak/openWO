@@ -34,6 +34,12 @@ const GIF_BASE = import.meta.env.VITE_GIF_BASE || 'gif/'
 export const imgSrc = ex => IMG_BASE + ex.img
 export const gifSrc = ex => GIF_BASE + ex.gif
 
+// Exercises doable at home with no equipment: bodyweight (or your own custom ones), minus
+// anything that needs a pull-up bar, rings, parallel bars, a bench or a suspension trainer.
+// A chair, a wall and a mat are assumed.
+const NEEDS_GEAR = /parallel bars|\bbar\b|\brings?\b|cage|hanging|suspended|pull.?up|chin.?up|captains chair|bench\b|balance board|rope climb/i
+export const isHomeFriendly = e => (!e.eq || e.eq === 'body weight') && !NEEDS_GEAR.test(e.n)
+
 // Cardio exercises log time + speed instead of weight × reps.
 export const isCardio = idOrEx => (typeof idOrEx === 'string' ? EXIDX[idOrEx] : idOrEx)?.bp === 'cardio'
 

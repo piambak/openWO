@@ -10,7 +10,7 @@ import { wakeLockSupported } from '../lib/wakelock.js'
 import { t, LANGS, INSTR_LANGS } from '../lib/i18n.js'
 import { DEMO, REPO } from '../lib/demo.js'
 import { MOBILE, shareExport, syncReminder } from '../lib/mobile.js'
-import { loadStarterPlan, confirmSheet, importFromApp } from '../sheets.jsx'
+import { loadStarterPlan, loadHomePlan, confirmSheet, importFromApp } from '../sheets.jsx'
 import Icon from '../components/Icon.jsx'
 import { Section, Row, SelectRow, Switch, Segmented, Button, TextField } from '../components/ui.jsx'
 
@@ -152,6 +152,15 @@ export default function Settings() {
           onChange={v => update(s => { s.theme = v })}
         />
       </Row>
+      {/* Where you train: "home" starts the exercise library on what needs no equipment. */}
+      <Row icon="house" iconTint="var(--teal)" title={t('Where do you train?')}>
+        <Segmented
+          className="seg-inline"
+          options={[{ value: 'gym', label: t('Gym') }, { value: 'home', label: t('At home') }]}
+          value={S.place === 'home' ? 'home' : 'gym'}
+          onChange={v => update(s => { s.place = v })}
+        />
+      </Row>
       {/* Purely how the muscle map is drawn — nothing else in the app reads this. */}
       <Row icon="figureStrength" iconTint="var(--teal)" title={t('Body diagram')}>
         <Segmented
@@ -175,6 +184,9 @@ export default function Settings() {
     {/* ---------- data: fill it, bring things over, back it up, wipe it ---------- */}
     <Section title={t('Data')}>
       <Row icon="sparkles" iconTint="var(--acc)" title={t('Load starter plan (PPL)')} accessory="chevron" onClick={loadStarterPlan} />
+      <Row icon="figureStrength" iconTint="var(--teal)" title={t('Load home plan (no equipment)')}
+        subtitle={t('Legs, chest, back, core, arms, cardio and stretching — just a mat and a chair')}
+        accessory="chevron" onClick={loadHomePlan} />
       <Row icon="shuffle" iconTint="var(--teal)" title={t('Import from another app')}
         subtitle={t('FitNotes, Strong, Hevy — or body weight from Apple Health')}
         accessory="chevron" onClick={() => importRef.current.click()} />

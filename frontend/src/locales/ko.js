@@ -554,4 +554,13 @@ export default {
   '{0} sets of {1} — time to add weight or move to a harder variation.': '{1}회 {0}세트 — 이제 무게를 올리거나 더 어려운 동작으로 넘어가세요.',
   '{0} per side': '한쪽당 {0}회',
   'You still log the total: {0} is {1} per side.': '기록은 그대로 합계로 합니다: {0}회는 한쪽당 {1}회입니다.',
+  // --- home workouts ---
+  'Home plan loaded — {0} routines, no equipment needed': '홈 플랜을 불러왔어요 — 루틴 {0}개, 장비 필요 없음',
+  'Set up your weekly routine to get going — or load a ready-made plan: Push / Pull / Legs for the gym, or a no-equipment plan for home.': '주간 루틴을 설정해 시작하거나 준비된 플랜을 불러오세요: 헬스장용 푸시 / 풀 / 하체, 또는 집에서 하는 맨몸 플랜.',
+  'Load home plan (no equipment)': '홈 플랜 불러오기 (장비 없음)',
+  'Legs, chest, back, core, arms, cardio and stretching — just a mat and a chair': '하체, 가슴, 등, 코어, 팔, 유산소, 스트레칭 — 매트와 의자만 있으면 돼요',
+  'Where do you train?': '어디서 운동하나요?',
+  'Gym': '헬스장',
+  'At home': '집에서',
+  'At home (no equipment)': '집에서 (장비 없음)',
 }

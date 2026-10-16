@@ -554,4 +554,13 @@ export default {
   '{0} sets of {1} — time to add weight or move to a harder variation.': '{1} रेप्स के {0} सेट — अब वज़न बढ़ाने या किसी कठिन वैरिएशन पर जाने का समय।',
   '{0} per side': 'प्रति तरफ़ {0}',
   'You still log the total: {0} is {1} per side.': 'आप कुल ही दर्ज करते हैं: {0} यानी प्रति तरफ़ {1}।',
+  // --- home workouts ---
+  'Home plan loaded — {0} routines, no equipment needed': 'होम प्लान लोड हो गया — {0} रूटीन, किसी उपकरण की ज़रूरत नहीं',
+  'Set up your weekly routine to get going — or load a ready-made plan: Push / Pull / Legs for the gym, or a no-equipment plan for home.': 'शुरू करने के लिए अपना साप्ताहिक रूटीन बनाएँ — या तैयार प्लान लोड करें: जिम के लिए पुश / पुल / लेग्स, या घर के लिए बिना उपकरण वाला प्लान।',
+  'Load home plan (no equipment)': 'होम प्लान लोड करें (बिना उपकरण)',
+  'Legs, chest, back, core, arms, cardio and stretching — just a mat and a chair': 'पैर, छाती, पीठ, कोर, बाँहें, कार्डियो और स्ट्रेचिंग — बस एक मैट और एक कुर्सी',
+  'Where do you train?': 'आप कहाँ वर्कआउट करते हैं?',
+  'Gym': 'जिम',
+  'At home': 'घर पर',
+  'At home (no equipment)': 'घर पर (बिना उपकरण)',
 }
